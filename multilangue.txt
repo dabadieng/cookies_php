@@ -1,0 +1,31 @@
+﻿<?php
+/*
+On veut créer une page d'accueil qui affiche un message de bienvenue dans la langue choisie par l'utilisateur.
+
+1. Créé une page "accueil.php" qui comprend un formulaire avec une liste déroulante des langues possibles.
+Par défaut le message de bienvenu est en Français.
+Après choix d'une langue et soumission du formulaire :
+- la page "accueil.php" s'affiche à nouveau avec le message de bienvenue dans la langue choisie
+- la liste déroulante est pré-selectionnée à la langue choisie.
+
+2. Mémoriser le choix de la langue dans un cookie de sorte que lorsque l'utilisateur revient sur la page "accueil.php", 
+le message de bienvenue s'affiche dans la langue mémorisée.
+
+On donne le tableau de correspondance des langues et des messages de bienvenue.
+*/
+
+$data = array(
+	"Albanie" => "Mirë se vini në faqen tonë të internetit",
+	"Allemagne" => "Herzlich willkommen auf unserer Website",
+	"Angleterre" => "Welcome to our website",
+	"Danemark" => "Velkommen til vores hjemmeside",
+	"Espagne" => "Bienvenido a nuestro sitio web",
+	"Estonie" => "Tere tulemast meie kodulehel",
+	"France" => "Bienvenue sur notre site",
+	"Italie" => "Benvenuti nel nostro sito",
+	"Pays-Bas" => "welkom op onze website",
+	"Pologne" => "Witamy na naszej stronie internetowej",
+	"Portugal" => "Bem-vindo ao nosso site",
+	"Roumanie" => "Bine ati venit la site-ul nostru",
+	"Suède" => "Välkommen till vår hemsida");
+?>

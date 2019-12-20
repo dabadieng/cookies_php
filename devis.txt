@@ -1,0 +1,16 @@
+Un commercial souhaite disposer d'une appli pour établir des devis pour des projets informatiques.
+Le devis est calculé en évaluant le nombre de jours prévu pour chaque type d'intervenant,
+sachant que chaque type d'intervenant possède un prix journalier (HT).
+Le tableau des types d'intervenants et de leur taux journalier HT est donné : 
+$data=[
+	"Développeur Web" => 300.0,
+	"Designer" => 300.0,
+	"Architecte SI" => 620.0,
+	"Administrateur data" => 705.0,
+	"Ingénieur sécurité" => 1120.0,
+	"Référenceur" => 250.0,
+	"Chef de projet" => 530.0];
+
+Développer une page "devis.php" comportant un formulaire permettant de saisir le nombre de jours prévus pour chaque intervenant et qui calcule en retour le montant du devis TTC.
+Mémoriser l'ensemble des données dans un cookie de sorte que le retour sur la page "devis.php" affiche la dernière simulation effectuée.
+La TVA est de 20%.
